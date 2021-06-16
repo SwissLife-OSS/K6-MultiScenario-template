@@ -416,7 +416,7 @@ export function FrontendSimpleTest(authToken) {
 // Testing the backend just with reads
 export function GraphQLEndpointTest(authToken){
     let headers = {
-        // Authorization: `Bearer ${authToken}`, // This GraphQL server does not require authentication so we pass no token in the header
+        // Authorization: `Bearer ${authToken}`, // This GraphQL server does not require authentication so we provide no token in the header
         'Content-Type': 'application/json',
       };
     let Query_allRicknMorty_Humans = ` 

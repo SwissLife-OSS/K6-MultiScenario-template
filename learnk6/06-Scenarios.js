@@ -7,7 +7,7 @@ export let options = {
       exec: 'FunctionForThisScenario',
       executor: 'ramping-vus',
       startTime: '0s',
-      startVUs: 5,
+      startVUs: 1,
       stages: [
         { duration: '5s', target: 5 },
       ],
@@ -15,7 +15,7 @@ export let options = {
     Scenario_GetContacts: {
       exec: 'FunctionGetContacts',
       executor: 'ramping-vus',
-      startTime: '0s',
+      startTime: '3s',
       startVUs: 5,
       stages: [
         { duration: '2s', target: 5 },

@@ -15,7 +15,7 @@ export let options = {
 };
 
 export default function(){	
-	let result = http.get('https://test-api.k6.io/');
+	let result = http.get('http://test.k6.io/'); // http://test.k6.io/
 
 	check(result, {
 		"Status is 200": (r) => r.status == 200,

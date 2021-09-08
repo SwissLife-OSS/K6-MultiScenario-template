@@ -6,7 +6,7 @@ export let options = {
   scenarios: {
     contacts: {
       executor: 'ramping-vus',
-      startVUs: 5,
+      startVUs: 1,
       stages: [
         { duration: '10s', target: 5 },
         { duration: '10s', target: 10 },

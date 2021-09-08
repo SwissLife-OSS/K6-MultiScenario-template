@@ -32,10 +32,10 @@ export let options = {
 export function FunctionForThisScenario() {
   http.get('https://test-api.k6.io/public/crocodiles/');
 
-  group('Do something and wait', function () {
+ group('Do something and wait', function () {
     // ...
     DoSomethingAndWait();
-  });
+  }); 
 
 }
 

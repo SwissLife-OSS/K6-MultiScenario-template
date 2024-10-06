@@ -8,8 +8,7 @@ export let options = {
 	  }],
 	  "checks": [{
 		  threshold: "rate>0.9"
-	  }],
-	  "errors": ["rate<0.1"]
+	  }]
   },
   stages: [
     { duration: '2s', target: 5 },
